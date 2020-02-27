@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="assets/css/Estilo-formulario.css">
+
+</head>
+
+<body>
+  
+    <div id="caixa">
+        <h1>Formulário</h1>
+        <br><br>
+        <form action="" method="post">
+        <label for="">Nome</label>
+        <input type="text" id="nome" maxlength="20" size="50" placeholder="Digite o seu nome" required>
+        
+        <br><br>
+        <label for="">Idade:</label>
+        <input type="number" id="idade" min="18" max="29">
+        <br><br>
+        <label for="">Nascimento</label>
+        <input type="date" id="nascimento">
+        <br><br>
+        <label for="">Estados</label>
+        <select id="estados">
+            <option value="SP">São Paulo</option>
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="MG">Minas Gerais</option>
+            <option value="PM">Palmeiras não tem mundial</option>
+            <option value="PI">51 é pinga</option>
+            <option value="CO">Vai Corinthians</option>
+            <option value="OM">Olokinho meu</option>
+        </select>
+        <br><br>
+        <label for="">Senha</label>
+        <input type="password" id="senha">
+        <br><br>
+        <label for="">Sexo</label>
+        <input type="radio" id="sexo" name="sexo" value="Feminino">
+        <label for="">Feminino</label>
+        <input type="radio" id="sexo" name="sexo" value="Masculino">
+        <label for="">Masculino</label>
+        <br><br>
+        <input type="checkbox" id="almoco">
+        <label for="">Almoço</label>
+        <input type="checkbox" id="ValeTransporte">
+        <label for="">Vale Transporte</label>
+        <br><br>
+        <label for="">Observação:</label>
+        <textarea id="observacao" cols="20" rows="3"></textarea>
+        <br><br>
+        <input type="submit" value="Enviar" onclick="mostrar()">
+        <br><br>
+        <input type="reset" value="Limpar Campos">
+        
+
+
+
+
+    </form>
+</div>
+    
+    <script src="assets/js/formulario.js"></script>
+</body>
+
+</html>
