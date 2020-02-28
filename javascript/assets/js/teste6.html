@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        var texto = prompt("Digite a palavra: ")
+        var vetor = texto.split (" ")
+        var resultado = vetor[0]
+        alert(resultado)
+        for (var i = 0; i < vetor.length; i++) {
+            if (resultado.length < vetor[i].length)
+            {
+                resultado=vetor[i]
+            }
+            
+        }
+        
+        alert(resultado)
+    </script>
+</body>
+</html>

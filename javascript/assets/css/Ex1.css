@@ -1,0 +1,17 @@
+*{box-sizing: border-box;
+margin: 0; padding: 0;}
+
+ ul {list-style: none;}
+
+/*h1, h2 {text-align: center;} ou pode usar o de baixo*/
+#titulo, #subtitulo {text-align: center;}
+
+/* quando é classe usa o ponto */
+.verde {background-color: green;
+     padding: 10px;}
+     .vermelha{background-color: red; padding: 10px;}
+
+/* quando é ID usa # */
+#caixa {width: 20%;
+margin: 0 auto;
+border: solid red;}
